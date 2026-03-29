@@ -1,0 +1,11 @@
+[project]
+name = "thread-analyzer"
+version = "0.1.0"
+description = "MCP server + scraper for analyzing replies on Threads posts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.26.0",
+    "pandas>=3.0.1",
+    "playwright>=1.58.0",
+]
